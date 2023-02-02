@@ -46,6 +46,7 @@ header li a {
 
 main {
   padding: 10px;
+  margin-bottom: 50px;
 }
 
 main h2 {
@@ -134,8 +135,9 @@ form button {
 footer {
   display: grid;
   place-content: center;
-  position: relative;
-  height: auto;
+  position: fixed;
+  clear: both;
+  height: 50px;
   bottom: 0;
   width: 100%;
   color: #fff;
