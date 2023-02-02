@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css" />
+    <title>contaSENA</title>
+  </head>
+  <body>
+    <header>
+      <h1>ContaSENA</h1>
+      <nav>
+        <ul>
+          <li class="path"><a href="contact.html">Contanto</a></li>
+          <li class="path"><a href="contacts.html">Contactos</a></li>
+          <li class="path"><a href="city.html">City</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <h2>Contactenos</h2>
+      <form action="" onsubmit="">
+        <label for="name">Nombre</label>
+        <input type="text" id="name" class="fullInput" required />
+
+        <label for="address">Dirección</label>
+        <input type="text" id="address" class="partialLeftInput" required />
+
+        <label for="city">Ciudad</label>
+        <select name="city" id="city" required>
+          <option value="">--Seleccione una opción</option>
+          <option value="cajica">Cajica</option>
+          <option value="chia">Chia</option>
+          <option value="zipaquira">Zipaquira</option>
+          <option value="cogua">Cogua</option>
+        </select>
+
+        <label for="phone">Teléfono</label>
+        <input type="tel" id="phone" class="partialLeftInput" required />
+
+        <label for="email">E-mail</label>
+        <input type="email" id="email" class="partialRightInput" required />
+
+        <label for="subject">Asunto</label>
+        <input type="text" id="subject" class="fullInput" required />
+
+        <label for="message">Mensaje</label>
+        <textarea
+          name="message"
+          id="message"
+          class="fullInput"
+          rows="5"
+          required
+        ></textarea>
+
+        <button type="submit">Enviar</button>
+      </form>
+    </main>
+    <footer>
+      <p>
+        SENA CDA Chia &copy; 2022
+        <br />
+        Todos los derechos reservados
+      </p>
+    </footer>
+  </body>
+</html>
