@@ -79,29 +79,6 @@ select {
     row-gap: 10px;
     margin-top: 35px;
   }
-
-  form button {
-    padding: 10px;
-    width: 80px;
-    margin: 20px 0;
-    border-radius: 6px;
-    background: #000;
-    color: #fff;
-  }
-
-  footer {
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    color: #fff;
-    text-align: center;
-    background: #000;
-  }
-
-  footer p {
-    font-size: 10px;
-    margin: 15px;
-  }
 }
 
 @media (min-width: 765px){
@@ -143,27 +120,29 @@ select {
   .partialLeftInput {
     grid-column: 1 / 2;
   }
+}
 
-  form button {
-    padding: 10px;
-    width: 80px;
-    margin: 20px 0;
-    border-radius: 6px;
-    background: #000;
-    color: #fff;
-  }
+form button {
+  padding: 10px;
+  width: 80px;
+  margin: 20px 0;
+  border-radius: 6px;
+  background: #000;
+  color: #fff;
+}
 
-  footer {
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    color: #fff;
-    text-align: center;
-    background: #000;
-  }
+footer {
+  display: grid;
+  place-content: center;
+  position: relative;
+  height: auto;
+  bottom: 0;
+  width: 100%;
+  color: #fff;
+  background: #000;
+}
 
-  footer p {
-    font-size: 12px;
-    margin: 15px;
-  }
+footer p {
+  font-size: 10px;
+  margin: 15px;
 }
