@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contacto</title>
+
+    <link rel="stylesheet" href="contact.css" />
+
+    <!-- BOOTSTRAP -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+
+    <!-- BOOTSTRAP ICONS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css"
+    />
+
+    <!-- JQUERY -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <!-- DATATABLES -->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.3/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.datatables.net/v/bs5/dt-1.13.1/r-2.4.0/sp-2.1.0/datatables.min.css"
+    />
+
+    <script
+      type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.3/js/bootstrap.bundle.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="https://cdn.datatables.net/v/bs5/dt-1.13.1/r-2.4.0/sp-2.1.0/datatables.min.js"
+    ></script>
+  </head>
+  <body>
+    <header>
+      <h1><a href="index.html">ContaSENA</a></h1>
+      <nav>
+        <ul>
+          <li class="path"><a href="index.html">Contacto</a></li>
+          <li class="path"><a href="contact.html">Contactos</a></li>
+          <li class="path"><a href="city.html">City</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <h2>Registro de contactenos</h2>
+      <table
+        id="contactsTable"
+        class="table table-bordered table-striped dt-responsive contactsTable"
+      >
+        <thead>
+          <tr>
+            <th>Id</th>
+            <th>Usuario</th>
+            <th>Asunto</th>
+            <th>Acciones</th>
+          </tr>
+        </thead>
+        <tbody id="tableBody">
+          
+        </tbody>
+        <tfoot>
+          <tr>
+            <td>ID</td>
+            <td>Usuario</td>
+            <td>Asunto</td>
+            <td>Acciones</td>
+          </tr>
+        </tfoot>
+      </table>
+    </main>
+    <footer>
+      <p>
+        SENA CDA Chia &copy; 2022
+        <br />
+        Todos los derechos reservados
+      </p>
+    </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous"
+    ></script>
+    <script type="text/javascript" src="contact.js"></script>
+  </body>
+</html>

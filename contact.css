@@ -14,8 +14,7 @@ header {
   box-shadow: 0px 10px rgba(0, 201, 0, 0.708), 0px 10px rgba(0, 201, 0, 0.708);
 }
 
-header h1,
-a {
+header h1 a {
   font-family: 'calibri';
   font-weight: bold;
   text-shadow: 0px 0px 5px rgba(0, 201, 0, 0.708),
@@ -86,19 +85,7 @@ main h2::after {
   border-bottom: 3px solid rgba(0, 201, 0, 0.708);
 }
 
-label {
-  margin: 0;
-}
 
-form input,
-textarea,
-select {
-  border: none;
-  box-shadow: 0px 0px 2px rgb(93, 93, 93);
-  border-radius: 3px;
-  padding: 10px;
-  max-width: 100%;
-}
 
 @media (min-width: 280px) and (max-width: 520px) {
   header ul {
